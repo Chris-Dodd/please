@@ -58,7 +58,7 @@ try:
         print val
         print "please updating db"
         firebase.put('plantmonitor-723b4', 'value', str(val))
-        sleep(.5)
+        
 
         # Sleep for dly
         sleep(dly)
